@@ -308,6 +308,8 @@ Is used to display Standout Features on the LWC
 
 ### **OmniScript**
 
+You will find 2 OS in the /Omnistudio folder
+
 **productGrid**
 
 This OS shows how to display different insurance groups and different products. Primary purpose of this OS is to show how data is passed to the backend. 
@@ -344,9 +346,6 @@ as a static resource, lets call it hidenInsConfigBtn then on the OS setup you wi
 
 ### Pre-Install Configuration Steps:
 
-1. Add
-2. Add
-
 #### Install the Data Pack
 
 1. Follow the download steps presented on the Accelerate HLS website for this Accelerator. 
@@ -368,6 +367,7 @@ as a static resource, lets call it hidenInsConfigBtn then on the OS setup you wi
 1. Install Vlocity Insurance (vlocity_ins)
 
 2. Please make sure you have installed sample HLS Insurance products https://github.com/healthcare-and-life-sciences/ins-products
+
 3. **[IF YOUR DATAPACK HAS OMNISCRIPTS - INCLUDE THE FOLLOWING STEPS]** 
 
 4. Click on **App Launcher** → Search for “OmniScripts”
@@ -386,20 +386,21 @@ as a static resource, lets call it hidenInsConfigBtn then on the OS setup you wi
 9. Click on **App Launcher** → Search for “FlexCards”
 
 10. 1. Navigate to the recently installed FlexCard in the list view
-   2. Open the FlexCard
-   3. Click **Activate** and select the appropriate Publish Options
+
+   11. Open the FlexCard
+
+   12. Click **Activate** and select the appropriate Publish Options
+
    4. For more information regarding activating FlexCards, please see this article: https://help.salesforce.com/s/articleView?id=sf.os_activateconfigureand_publish_flexcards_24744.htm&type=5
 
 11. Add the installed FlexCard to the lightning page layout of your choosing.
 
-12. 1. Refer to the following articles for more information regarding adding FlexCards to a Lightning or Experience page: 
+15. 1. Refer to the following articles for more information regarding adding FlexCards to a Lightning or Experience page: 
 
     2. 1. https://docs.vlocity.com/en/Add-a-FlexCard-to-a-Lightning-Page.html
        2. https://docs.vlocity.com/en/Add-a-FlexCard-to-an-Experience-Page.html
 
-13. Add
-
-14. Add
+    
 
 ------
 
@@ -416,4 +417,4 @@ as a static resource, lets call it hidenInsConfigBtn then on the OS setup you wi
 - ## Revision History
 
   * **December 23, 2022**
-  * Inistial check in with support for Small Group, Invidiual and Medicare
+  * Initial check in with support for Small Group, Invidiual and Medicare
