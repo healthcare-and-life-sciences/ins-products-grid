@@ -301,60 +301,42 @@ Is used to display Standout Features on the LWC
 
 
 
-------
-
-## Business Objective
-
-Add Accelerator Objective
-
-## Business Value and Benefits
-
-- Add
-- Add
-
-- Add
-- Add
-
-------
-
-## Industry Focus and Workflow
-
-### Primary Industry:
-
-- Add
-- Add
-
-### Primary User Persona:
-
-- Add
-- Add
-
-### User Workflow:
-
-- Add
-- Add
 
 ------
 
 ## Package Includes:
 
-### **OmniScript (#)**
+### **OmniScript**
 
-- Add
-- Add
-- Add
+**productGrid**
 
-### **DataRaptor (#)**
+This OS shows how to display different insurance groups and different products. Primary purpose of this OS is to show how data is passed to the backend. 
 
-- Add
-- Add
-- Add
+**productGridNoConfig**
 
-### **Custom Components (#)**
+This OS shows how to hide the config Panel. 
 
-- Add
-- Add
-- Add
+![](./images/HideConfigPlan.png)
+
+This is done by adding the follwing manual over ride css
+
+
+
+```
+.vloc-ins-action-container
+	.vloc-ins-product-actions
+	button.slds-button_neutral {
+	display: none;
+}
+```
+
+
+
+as a static resource, lets call it hidenInsConfigBtn then on the OS setup you will add the css reousrce name in "Custom Lightning Stylesheet File Name"
+
+
+
+
 
 ------
 
@@ -375,8 +357,11 @@ Add Accelerator Objective
 
 4. 1. To Import, in your destination Salesforce org, Click on **App Launcher** → Search for '**OmniStudio DataPacks**' and click on it.
    2. Click on '**Installed**' and on the right side click on '**Import from**'.
-   3. Select '**From File**' - When the window opens, select the Data Pack file that you downloaded and stored on your machine. Click '**Install**'.
-   4. When prompted to Activate the OmniScript, choose **Not Now**.
+   3. Select '**From File**' - When the window opens, select the Data Pack file that you downloaded and stored on your machine. 
+      1. productGrid.json
+      2. productGridConfig.json
+   4. Click '**Install**'.
+   5. When prompted to Activate the OmniScript, choose **Not Now**.
 
 ### Post-Install Configuration Steps:
 
