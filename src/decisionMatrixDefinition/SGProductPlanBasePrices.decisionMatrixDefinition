@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DecisionMatrixDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>SGProductPlanBasePrices</label>
+    <type>Standard</type>
+    <versions>
+        <fullName>SGProductPlan_V12</fullName>
+        <columns>
+            <columnType>Input</columnType>
+            <dataType>Text</dataType>
+            <displaySequence>1</displaySequence>
+            <isWildcardColumn>false</isWildcardColumn>
+            <name>ProductCode</name>
+        </columns>
+        <columns>
+            <columnType>Output</columnType>
+            <dataType>Number</dataType>
+            <displaySequence>2</displaySequence>
+            <isWildcardColumn>false</isWildcardColumn>
+            <name>PlanPrice</name>
+        </columns>
+        <decisionMatrixDefinition>SGProductPlanBasePrices</decisionMatrixDefinition>
+        <label>SGProductPlan V12</label>
+        <startDate>2022-12-01T15:25:00.000Z</startDate>
+        <status>Active</status>
+        <versionNumber>12</versionNumber>
+    </versions>
+</DecisionMatrixDefinition>
