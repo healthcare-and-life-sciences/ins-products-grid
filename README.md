@@ -4,15 +4,15 @@
 
 ## Overview
 
-insOsGridProductSelection LWC is designed for underwriters, brokers, and sales executives who select the products, compare and add them to the cart for the final purchase. 
+insOsGridProductSelection LWC is designed for underwriters, brokers, and sales executives who select, compare and add products to a cart for final purchase or quoting.
 
-A complex LWC called [insOsGridProductSelection](https://help.salesforce.com/s/articleView?id=ind.v_health_t_use_the_insosgridproductselection_lwc_482515.htm&type=5)  is used to provide this function as part of Vlocity Insurance package (vlocity_ins). In this HLS Accelerator we want show how to use this component with a set of detail extensive example. 
+A complex LWC called [insOsGridProductSelection](https://help.salesforce.com/s/articleView?id=ind.v_health_t_use_the_insosgridproductselection_lwc_482515.htm&type=5)  is used to provide this functionality as part of the Vlocity Insurance package (vlocity_ins). This Accelerator is a sample configuration of this LWC with detailed configuration documentation.
 
-This accelerator does not cover how to create products. Before you start with this It's recommended that you start with the product's data pack and add the product data pack to your org https://github.com/healthcare-and-life-sciences/ins-products 
+This accelerator does not cover how to create products. Before you use this Accelerator, it is recommended that you configure your products. We have provided a separate Accelerator that contains sample product templates for your use: https://github.com/healthcare-and-life-sciences/ins-products 
 
-We have created sampe pricing engines that shows how to use [Expression sets](https://help.salesforce.com/s/articleView?id=sf.expression_sets.htm&type=5) for pricing but these are example EP's that are not real pricing engines. Again the idea here is to show how the data is passed between the product grid and expression set, not to implement an actual pricing engin. 
+We have created sample pricing engines that show how to use [Expression sets](https://help.salesforce.com/s/articleView?id=sf.expression_sets.htm&type=5) for pricing but these are example EP's that are not real pricing engines. Again the idea here is to show how the data is passed between the product grid and expression set, not to implement an actual pricing engine. 
 
-Following in an example of the proudct grid that shows with product data. 
+The following is an example of the proudct grid with sample product data. 
 
 
 
@@ -20,7 +20,7 @@ Following in an example of the proudct grid that shows with product data.
 
 
 
-When you look at the sample Omniscript, you will see depending on the type of insurance (Small Group, Invidual, Medicare), a user can input different data and they are passed to the expression set. Follwoing values show different data we capture based on teh type of insurance. 
+When you look at the sample, you will see that depending on the type of insurance (Small Group, Invidual, Medicare), a user can input different data which is passed to the expression set. The following values show different data which is captured based on the type of insurance. 
 
 
 
@@ -38,7 +38,7 @@ When you look at the sample Omniscript, you will see depending on the type of in
 
 ### JSON Configuration . 
 
-How to configure the LWC json is described here [insOsGridProductSelection](https://help.salesforce.com/s/articleView?id=ind.v_health_t_use_the_insosgridproductselection_lwc_482515.htm&type=5) at a high level. Here are some brake down that explains bit more. Follwing is a example configuration JSON for the LWC
+Configuration steps for the JSON are found here: [insOsGridProductSelection](https://help.salesforce.com/s/articleView?id=ind.v_health_t_use_the_insosgridproductselection_lwc_482515.htm&type=5). Please refer to the below for the detailed break-down of the configuration options.
 
 
 
@@ -234,7 +234,7 @@ How to configure the LWC json is described here [insOsGridProductSelection](http
 
 
 
-and now we will go through each part of the json and explain what each root node does. 
+Now, we will go through each part of the JSON and explain what each root node does. 
 
 **ProductConfig** 
 
