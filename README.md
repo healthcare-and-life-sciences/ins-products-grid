@@ -12,7 +12,7 @@ This accelerator does not cover how to create products. Before you use this Acce
 
 We have created sample pricing engines that show how to use [Expression sets](https://help.salesforce.com/s/articleView?id=sf.expression_sets.htm&type=5) for pricing but these are example EP's that are not real pricing engines. Again the idea here is to show how the data is passed between the product grid and expression set, not to implement an actual pricing engine. 
 
-The following is an example of the proudct grid with sample product data. 
+The following is an example of the product grid with sample product data. 
 
 
 
